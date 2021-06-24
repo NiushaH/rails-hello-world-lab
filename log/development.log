@@ -8,3 +8,69 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+Started GET "/hello_world" for 127.0.0.1 at 2021-06-23 00:34:17 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/some_page with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/mnt/c/Users/Niusha/dev/flatiron/labs/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:3:in `hello_world'
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (50.4ms)
+Started GET "/hello_world" for 127.0.0.1 at 2021-06-23 00:34:20 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/some_page with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/mnt/c/Users/Niusha/dev/flatiron/labs/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:3:in `hello_world'
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/splendid/.rvm/gems/ruby-2.6.6/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (57.8ms)
+Started GET "/hello_world" for 127.0.0.1 at 2021-06-23 00:34:42 -0600
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb
+  Rendered static/hello_world.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 127.0.0.1 at 2021-06-23 00:35:44 -0600
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb
+  Rendered static/hello_world.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 127.0.0.1 at 2021-06-23 00:36:04 -0600
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb
+  Rendered static/hello_world.html.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 127.0.0.1 at 2021-06-23 00:36:06 -0600
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb
+  Rendered static/hello_world.html.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
